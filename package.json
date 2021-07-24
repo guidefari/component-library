@@ -17,10 +17,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
+    "@heroicons/react": "^1.0.2",
     "@storybook/addon-actions": "^6.4.0-alpha.20",
     "@storybook/addon-essentials": "^6.4.0-alpha.20",
     "@storybook/addon-links": "^6.4.0-alpha.20",
     "@storybook/react": "^6.4.0-alpha.20",
+    "@tailwindcss/forms": "^0.3.3",
     "@types/node": "^16.4.1",
     "@types/react": "^17.0.15",
     "babel-loader": "^8.2.2",
