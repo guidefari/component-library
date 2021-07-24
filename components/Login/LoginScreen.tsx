@@ -5,22 +5,16 @@ import { LockClosedIcon } from '@heroicons/react/solid'
 export interface LoginScreenProps extends HTMLAttributes<HTMLDivElement> {
     heading: string, 
     logoUrl: string,
-      backgroundColor?: string;
-  textColor?: string;
-  classes?: string;
-
+    backgroundColor?: string;
   }
 
 export const LoginScreen: FC<LoginScreenProps> = ({
     heading,
     logoUrl,
     backgroundColor,
-    textColor,
-    children,
-    classes
   }) => {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className={`min-h-screen flex  items-center justify-center ${backgroundColor} py-12 px-4 sm:px-6 lg:px-8`} style={{backgroundColor: backgroundColor}}>
       <div className="max-w-md w-full space-y-8">
         <div>
           <img

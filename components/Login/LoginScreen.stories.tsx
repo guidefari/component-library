@@ -14,7 +14,7 @@ export default {
 
 export const Default: Story<LoginScreenProps> = (args) => <LoginScreen {...args} />;
 Default.args = {
-  backgroundColor: '#000',
+  backgroundColor: 'bg-gray-50',
   textColor: '#fff',
   heading: 'Sign in to your account',
   logoUrl: 'https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg'
