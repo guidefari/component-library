@@ -9,3 +9,4 @@
 
 ## notes & thoughts
 - component development always starts here then gets pulled into relevant projects?
+- for firebase to work, make sure you have a secrets.json file
